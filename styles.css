@@ -1,0 +1,208 @@
+﻿body {
+  font-family:Segoe UI,Arial,Helvettica,sans-serif;
+  background-color:#00D2D9;
+  background-image:url(images/back.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+  color:#333;
+}
+
+header {
+  margin-right:10%;
+  margin-left:10%;
+}
+
+hgroup {
+  width:30%;
+  float:left;
+}
+
+h1 {
+  line-height:0;
+  margin-top:0;
+  margin-bottom:0;
+  color:white;
+  font-weight:lighter;
+}
+
+#pagecont {
+  position:absolute;
+  top:110px;
+  left:10%;
+  right:10%;
+  bottom:125px;
+  background-color:white;
+  border:5px solid #00D2D9;
+  border-radius:10px;
+  box-shadow:3px 3px 7px 1px #333;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:#333;
+  color:white;
+  padding:10px 10% 10px 10%;
+  height:80px;
+}
+
+#subtitle {
+  font-size:0.7em;
+  line-height:0;
+  min-width:250px;  
+}
+
+nav {
+  float:right;
+  width:70%;
+}
+
+header nav {
+  margin-top:30px;
+}
+
+nav ul {
+  list-style-type:none;
+  float:right;
+}
+
+nav li {
+  float:left;
+  margin-left:15px;
+}
+
+.currentLink a:link,.currentLink a:active,.currentLink a:hover,.currentLink a:visited {
+  color:#008299;
+  text-align:center;
+  text-decoration:overline;
+}
+
+footer .currentLink a:link,footer .currentLink a:active,footer .currentLink a:hover,footer .currentLink a:visited {
+  color:#00D2D9;
+  text-align:center;
+  text-decoration:underline;
+}
+
+.otherLink a:link,.otherLink a:visited {
+  color:#333;
+  text-decoration:none;
+  text-align:center;
+}
+
+footer .otherLink a:link,footer .otherLink a:visited {
+  color:white;
+}
+
+footer .otherLink a:hover,footer .otherLink a:active {
+  color:#00D2D9;
+}
+
+.otherLink a:hover,.otherLink a:active {
+  color:#008299;
+}
+
+.Footertxt {
+  font-weight:bold;
+  color:#222;
+  text-shadow: 0 -1px 0 #111;
+  margin-left:5px;
+}
+
+img {
+  border:0;
+}
+
+#mailButton {
+  display:block;
+  float:left;
+  width:24px;
+  height:16px;
+  margin:5px;
+  background:url('images/icon_mail.png');
+  outline:none;
+}
+
+#mailButton:hover {
+  background:url('images/hover_mail.png');
+}
+
+#supportButton {
+  display:block;
+  float:left;
+  width:16px;
+  height:16px;
+  margin:5px;
+  background:url('images/icon_support.png');
+  outline:none;
+}
+
+#supportButton:hover {
+  background:url('images/hover_support.png');
+}
+
+#fbButton {
+  display:block;
+  float:left;
+  width:16px;
+  height:16px;
+  margin:5px;
+  background:url('images/icon_fb.png');
+  outline:none;
+}
+
+#fbButton:hover {
+  background:url('images/hover_fb.png');
+}
+
+#twitterButton {
+  display:block;
+  float:left;
+  width:20px;
+  height:16px;
+  margin:5px;
+  background:url('images/icon_twitter.png');
+  outline:none;
+}
+
+#twitterButton:hover {
+  background:url('images/hover_twitter.png');
+}
+
+.prodLarge {
+  margin-bottom:5px;
+  margin-left:5px;
+  box-shadow:2px 2px 4px 1px rgba(0,0,0,0.5);
+}
+
+.prodLarge:hover {
+  transform:scale(1.03);
+}
+
+#dispTiles {
+  position:absolute;
+  top:10px;
+  left:10px;
+  bottom:10px;
+  right:200px;
+  margin:10px;
+  overflow:auto;
+  -moz-column-count:2;
+  -webkit-column-count:2;
+  column-count:2;
+  padding:4% 50px 3% 50px;
+  background-color:#001940;
+  background-image:url(images/Startback.png);
+  background-position:left bottom;
+  background-repeat:repeat-x;
+  background-size:100%;
+  background-attachment:scroll;
+}
+
+#tileDesc {
+  position:absolute;
+  top:10px;
+  right:10px;
+  bottom:10px;
+}
